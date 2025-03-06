@@ -1,24 +1,26 @@
-# Warpgate Token Trading SDK
+# Warpgate Token SDK
 
 A comprehensive SDK for interacting with tokens on the Movement Network using a bonding curve mechanism. This SDK provides a simple interface for buying and selling tokens, fetching token information, and managing transactions.
 
-## Features
-
-- Token buying and selling with price impact preview
-- Transaction recording to Warpgate API
-- Token information retrieval
-- Authentication with wallet signatures
-- Simplified transaction flows
-- Pool state monitoring
-- Error handling and resilience
+[![npm version](https://img.shields.io/npm/v/warpgate-fun-sdk.svg)](https://www.npmjs.com/package/warpgate-fun-sdk)
+[![GitHub](https://img.shields.io/github/license/hatchy-fun/warpgate-fun-sdk)](https://github.com/hatchy-fun/warpgate-fun-sdk/blob/main/LICENSE)
 
 ## Installation
 
 ```bash
-npm install @warpgate/token-sdk
+npm install warpgate-fun-sdk
 ```
 
-## Quick Start
+## Features
+
+- Token buying and selling with price impact preview
+- Transaction recording and history
+- Authentication with wallet
+- Simplified transaction execution
+- Pool state monitoring
+- Error handling and resilience
+
+## Documentation
 
 ### Basic Usage
 
@@ -309,3 +311,9 @@ For complete working examples, see the example files in the SDK:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Links
+
+- [NPM Package](https://www.npmjs.com/package/warpgate-fun-sdk)
+- [GitHub Repository](https://github.com/hatchy-fun/warpgate-fun-sdk)
+- [Issues](https://github.com/hatchy-fun/warpgate-fun-sdk/issues)
