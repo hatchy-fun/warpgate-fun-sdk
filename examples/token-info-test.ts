@@ -1,4 +1,4 @@
-import { TokenSDK } from "../src";
+import { TokenSDK } from 'warpgate-fun-sdk';
 
 // Create a new instance of the TokenSDK
 const tokenSDK = new TokenSDK({

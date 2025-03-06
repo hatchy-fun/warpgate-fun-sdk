@@ -2,11 +2,19 @@
 
 This directory contains examples of how to use the Token SDK.
 
+## Installation
+
+```bash
+npm install warpgate-fun-sdk
+```
+
 ## Authentication Example
 
 The `auth-example.ts` file demonstrates how to authenticate with the Token SDK using a wallet.
 
 ```typescript
+import { TokenSDK } from "warpgate-fun-sdk";
+
 // Initialize the SDK
 const tokenSDK = new TokenSDK({
   apiBaseUrl: "https://api.warpgate.fun",
@@ -51,6 +59,8 @@ const token = await tokenSDK.login({
 The `record-transaction.ts` file demonstrates how to record a transaction using the Token SDK.
 
 ```typescript
+import { TokenSDK } from "warpgate-fun-sdk";
+
 // Initialize the SDK with authentication
 const tokenSDK = new TokenSDK({
   apiBaseUrl: "https://api.warpgate.fun",
@@ -75,6 +85,8 @@ const sellRecord = await tokenSDK.recordSellTransaction(
 The `basic-usage.ts` file demonstrates basic usage of the Token SDK for trading.
 
 ```typescript
+import { TokenSDK } from "warpgate-fun-sdk";
+
 // Initialize the SDK
 const tokenSDK = new TokenSDK();
 
@@ -101,4 +113,3 @@ const sellParams = await tokenSDK.getSellParameters(
   "0xABC...XYZ::TOKEN::TOKEN", // Token identifier - replace with your actual token identifier
   "1000000" // Amount of tokens to sell
 );
-```

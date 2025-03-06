@@ -1,5 +1,5 @@
 import { Account, Ed25519PrivateKey } from "@aptos-labs/ts-sdk";
-import { TokenSDK, aptos } from "../src";
+import { TokenSDK, aptos } from "warpgate-fun-sdk";
 
 // Example of using the simplified SDK methods
 async function main() {
