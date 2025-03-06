@@ -74,11 +74,7 @@ console.log(`Buy transaction submitted: ${buyResult.txHash}`);
 ### Initialization Options
 
 ```typescript
-const sdk = new TokenSDK({
-  apiBaseUrl: "https://api.warpgate.fun", // Custom API URL (optional)
-  authToken: "your-auth-token", // Pre-existing auth token (optional)
-  skipTransactionRecording: false, // Set to true to skip transaction recording (optional)
-});
+const sdk = new TokenSDK();
 ```
 
 ## Examples
