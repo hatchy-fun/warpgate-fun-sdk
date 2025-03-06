@@ -1,5 +1,5 @@
 {
-  "name": "@warpgate/token-sdk",
+  "name": "warpgate-fun-sdk",
   "version": "1.0.0",
   "description": "SDK for buying and selling tokens on Movement Network using bonding curve",
   "main": "dist/index.js",
@@ -21,12 +21,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/warpgate-protocol/token-sdk.git"
+    "url": "git+https://github.com/hatchy-fun/warpgate-fun-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/warpgate-protocol/token-sdk/issues"
+    "url": "https://github.com/hatchy-fun/warpgate-fun-sdk/issues"
   },
-  "homepage": "https://github.com/warpgate-protocol/token-sdk#readme",
+  "homepage": "https://github.com/hatchy-fun/warpgate-fun-sdk#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@aptos-labs/ts-sdk": "^1.0.0",
     "axios": "^1.6.0"

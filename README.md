@@ -23,7 +23,7 @@ npm install @warpgate/token-sdk
 ### Basic Usage
 
 ```typescript
-import { TokenSDK } from "@warpgate/token-sdk";
+import { TokenSDK } from "warpgate-fun-sdk";
 import { Account } from "@aptos-labs/ts-sdk";
 
 // Initialize SDK
